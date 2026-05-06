@@ -23,7 +23,10 @@ function App() {
 
   return (
     <>
-      <ul>
+      <h1>Politici Mondiali</h1>
+
+      <input type="text" name="" id="" />
+      <ul className='d-flex flex-wrap g-2 list-unstyled'>
         {
           listaPolitici.map((politico, i) => {
             return (
