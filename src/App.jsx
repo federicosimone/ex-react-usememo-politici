@@ -16,9 +16,10 @@ function App() {
       .then(res => res.json())
       .then(data => {
         setListaPolitici(data);
-      });
+      })
+      .catch(err => console.error(err))
 
-  }, []);
+  }, []); //mettere dipendenza vuota in modo che si avvii solamente all'avvio del componente 
 
 
 
